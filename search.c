@@ -6,10 +6,10 @@ void main()
     scanf("%d",&n);
     printf("Enter the elements in array");
     for (i=1;i<n;i++)
-    scanf("%d",&x);
+         scanf("%d",&x);
     for(i=1;i<n;i++)
     if (a[i]==x)
-    break;
+        break;
     if (i<n)
     printf("Element is not found ");
     else
